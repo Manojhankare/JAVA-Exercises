@@ -7,15 +7,14 @@ public class PasswordValidation {
         System.out.print("Enter a password: ");
         String password = scanner.nextLine();
         
-        // Check if password is valid
         if (password.length() >= 8 && containsLettersAndNumbers(password)) {
             System.out.println("\nPassword is valid.");
         } else {
             System.out.println("\nPassword is invalid. It must be at least 8 characters long and contain both letters and numbers.");
         }
+        scanner.close();
     }
 
-    // Helper method to check if the password contains both letters and numbers
     public static boolean containsLettersAndNumbers(String password) {
         boolean hasLetter = false;
         boolean hasDigit = false;

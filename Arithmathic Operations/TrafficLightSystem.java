@@ -29,5 +29,6 @@ public class TrafficLightSystem {
                     System.out.println("\nInvalid traffic light color.");
             }
         }
+        scanner.close();
     }
 }

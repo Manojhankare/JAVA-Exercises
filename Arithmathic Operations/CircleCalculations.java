@@ -16,5 +16,6 @@ public class CircleCalculations {
         
         System.out.println("\nCircumference of the circle: " + circumference);
         System.out.println("Area of the circle: " + area);
+        scanner.close();
     }
 }

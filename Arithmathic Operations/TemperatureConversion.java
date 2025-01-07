@@ -21,5 +21,6 @@ public class TemperatureConversion {
         } else {
             System.out.println("\nInvalid unit entered.");
         }
+        scanner.close();
     }
 }

@@ -13,9 +13,9 @@ public class SimpleInterestCalculator {
         System.out.print("Enter the time in years: ");
         double time = scanner.nextDouble();
         
-        // Calculate simple interest
         double simpleInterest = (principal * rate * time) / 100;
         
         System.out.println("\nSimple Interest: " + simpleInterest);
+        scanner.close();
     }
 }
